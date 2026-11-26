@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "RabbitControl 服务器状态",
+    "description": "在 DeepSeek Harness 里查看 RabbitControl（rc-server）服务端状态。打开右侧栏，选择 RabbitControl 服务器状态，即可看到服务健康、已注册设备与进行中的中继会话；用 rc-server 账号登录后，token 以凭据记录保存，不写进配置。前提是 rc-server 可达；页面可见时面板每 15 秒轮询一次，所以在线状态是上一次轮询的结果。它是只读视图，不会断开会话或改动设备，同时注册 rc_health、rc_devices、rc_sessions 三个只读 agent 工具。rc-server 地址与是否接受自签证书来自插件行配置（baseUrl、insecureTls）；面板可以改地址，并会如实报告这次改动有没有写进配置。数据不出本机：Host 半边只访问你配置的 rc-server 地址。停用插件会同时移除面板、路由与三个工具。"
+  }
+}

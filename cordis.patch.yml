@@ -1,0 +1,9 @@
+# RabbitControl 面板的插件行。config 会被原样交给 Host 半边：
+#   baseUrl      rc-server 的 REST 地址（默认本机 21118）
+#   insecureTls  接受自签证书；只对本机 self-signed 部署打开
+- insert:
+    - id: rabbitcontrol-panel
+      name: 'dsh-rabbitcontrol-panel'
+      config:
+        baseUrl: ''   # 留空 = 由使用者在面板里填（并写回本 profile）
+        insecureTls: true

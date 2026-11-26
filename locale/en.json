@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "RabbitControl server status",
+    "description": "Inspect a RabbitControl (rc-server) deployment inside DeepSeek Harness: sign in, then read health, the device list and relay sessions from the sidebar panel. The agent also gets read-only rc_health, rc_devices and rc_sessions tools that reuse the same sign-in. Sign-in is shared with the RabbitControl remote desktop panel."
+  }
+}
